@@ -1,0 +1,22 @@
+#icones {
+    width: 100%;
+}
+
+#icones img {
+    width: 85px;
+    height: 85px;    
+}
+
+
+
+.navbar {
+    /*border-bottom: 1px solid #000;*/
+}
+
+.navbar-collapse {
+    flex-grow: 0.2;
+}
+
+
+
+
