@@ -61,10 +61,32 @@ section#inicio {
     height: 40px;
     line-height: 40px;
     margin-top: 30px;
-    border-radius: 10px;           
+    border-radius: 10px;  
+    box-shadow: 2px 2px 8px #666;         
 }
 
 #inicio a {
     text-decoration: none;
     color: #000;
+}
+
+
+
+
+
+
+@media(min-width: 800px) {
+    #avatar {
+        justify-content: space-around;        
+    }
+
+    #avatar strong {     
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    .button {
+        max-width: 30%;
+        
+    }
 }
