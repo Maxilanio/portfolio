@@ -1,0 +1,12 @@
+#avatar img {
+    animation: anime 3s normal;
+}
+
+@keyframes anime {
+    from {
+        width: 0;
+    }
+    to {
+       width: 160px;
+    }
+}
